@@ -8293,9 +8293,9 @@ Source: www.sumida.com/products/pdf/CEP125.pdf</description>
 <instances>
 <instance part="FID1" gate="G$1" x="246.38" y="25.4"/>
 <instance part="FID2" gate="G$1" x="241.3" y="25.4"/>
-<instance part="JP1" gate="G$1" x="66.04" y="172.72" rot="MR0"/>
-<instance part="GND1" gate="1" x="73.66" y="162.56"/>
-<instance part="GND2" gate="1" x="35.56" y="170.18"/>
+<instance part="JP1" gate="G$1" x="30.48" y="172.72" rot="MR0"/>
+<instance part="GND1" gate="1" x="38.1" y="162.56"/>
+<instance part="GND2" gate="1" x="0" y="170.18"/>
 <instance part="CX" gate="G$1" x="81.28" y="170.18"/>
 <instance part="SW1" gate="G$1" x="167.64" y="170.18"/>
 <instance part="R1" gate="G$1" x="129.54" y="170.18" rot="R90"/>
@@ -8339,12 +8339,12 @@ Source: www.sumida.com/products/pdf/CEP125.pdf</description>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
 <pinref part="JP1" gate="G$1" pin="SHIELD"/>
-<wire x1="35.56" y1="172.72" x2="58.42" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="0" y1="172.72" x2="22.86" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="JP1" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="73.66" y1="167.64" x2="73.66" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="167.64" x2="38.1" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VSS"/>
@@ -8426,7 +8426,7 @@ Source: www.sumida.com/products/pdf/CEP125.pdf</description>
 <segment>
 <pinref part="JP1" gate="G$1" pin="VCC"/>
 <pinref part="U1" gate="G$1" pin="VIN"/>
-<wire x1="73.66" y1="177.8" x2="81.28" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="177.8" x2="81.28" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="CX" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="177.8" x2="91.44" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="177.8" x2="101.6" y2="177.8" width="0.1524" layer="91"/>
@@ -8482,29 +8482,9 @@ Source: www.sumida.com/products/pdf/CEP125.pdf</description>
 <pinref part="SW1" gate="G$1" pin="S"/>
 <wire x1="172.72" y1="167.64" x2="187.96" y2="167.64" width="0.1524" layer="91"/>
 <label x="210.82" y="167.64" size="1.778" layer="95" xref="yes"/>
-<wire x1="187.96" y1="167.64" x2="200.66" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="167.64" x2="210.82" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="187.96" y1="167.64" x2="210.82" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="187.96" y1="177.8" x2="187.96" y2="167.64" width="0.1524" layer="91"/>
 <junction x="187.96" y="167.64"/>
-<junction x="200.66" y="167.64"/>
-<wire x1="200.66" y1="167.64" x2="200.66" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="157.48" x2="35.56" y2="157.48" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="157.48" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="149.86" x2="38.1" y2="149.86" width="0.1524" layer="91"/>
-<junction x="38.1" y="149.86"/>
-<wire x1="38.1" y1="149.86" x2="38.1" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="38.1" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
-<junction x="45.72" y="149.86"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<pinref part="MAX3218" gate="G$1" pin="6"/>
-<wire x1="58.42" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="45.72" y1="111.76" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="B78108S1153K" gate="G$1" pin="2"/>
-<wire x1="45.72" y1="116.84" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
-<wire x1="48.26" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
-<junction x="45.72" y="116.84"/>
-<pinref part="MAX3218" gate="G$1" pin="4"/>
-<wire x1="58.42" y1="116.84" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="187.96" y1="177.8" x2="205.74" y2="177.8" width="0.1524" layer="91"/>
 </segment>
@@ -8714,6 +8694,49 @@ Source: www.sumida.com/products/pdf/CEP125.pdf</description>
 <wire x1="86.36" y1="121.92" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="91.44" y1="149.86" x2="91.44" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="1.8V" class="0">
+<segment>
+<label x="30.48" y="149.86" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<junction x="38.1" y="149.86"/>
+<wire x1="38.1" y1="149.86" x2="38.1" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
+<junction x="45.72" y="149.86"/>
+<pinref part="B78108S1153K" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="116.84" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
+<junction x="45.72" y="116.84"/>
+<pinref part="MAX3218" gate="G$1" pin="4"/>
+<wire x1="58.42" y1="116.84" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="MAX3218" gate="G$1" pin="6"/>
+<wire x1="58.42" y1="111.76" x2="45.72" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="111.76" x2="45.72" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="149.86" x2="38.1" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_DN" class="0">
+<segment>
+<label x="60.96" y="175.26" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="G$1" pin="D-"/>
+<wire x1="60.96" y1="175.26" x2="38.1" y2="175.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_DP" class="0">
+<segment>
+<label x="60.96" y="172.72" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="G$1" pin="D+"/>
+<wire x1="38.1" y1="172.72" x2="43.18" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="172.72" x2="45.72" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="172.72" x2="45.72" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="USB_ID" class="0">
+<segment>
+<label x="60.96" y="170.18" size="1.27" layer="95" xref="yes"/>
+<pinref part="JP1" gate="G$1" pin="ID"/>
+<wire x1="38.1" y1="170.18" x2="60.96" y2="170.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
