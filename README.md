@@ -17,13 +17,13 @@ Also fun LEDs for power status!
 
 Repository Contents
 -------------------
-* **/Hardware** - Eagle design files (.brd, .sch)
+* **/hardware** - Eagle design files (.brd, .sch)
 
 Documentation
 --------------
-* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-blocks-for-intel-edison---battery-block)** - Basic hookup guide for the battery/power block.
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
-* **[SparkFun 3D Model repo](https://github.com/sparkfun/3D_Models)** - 3D models of SparkFun products.
+* **[Hookup Guide](https://learn.sparkfun.com/tutorials/sparkfun-blocks-for-intel-edison---battery-block)** - Basic hookup guide for the SparkFun battery/power block.
+* **[MAX3218 low voltage TTL-RS232 transciever](https://datasheets.maximintegrated.com/en/ds/MAX3218.pdf)** - Datasheet for the serial tranceiver.
+* **[Intel Edison Hardware Guide](http://download.intel.com/support/edison/sb/edisonmodule_hg_331189004.pdf)** - Datasheet for the Edison module.
 
 Sparkfun Product Versions
 ----------------

@@ -8249,11 +8249,11 @@ Source: www.sumida.com/products/pdf/CEP125.pdf</description>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
+<part name="D1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="CHARGING"/>
 <part name="C0" library="SparkFun-Capacitors" deviceset="4.7UF-6.3V-10%(0603)" device="0603" value="4.7uF"/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="D2" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="BLUE"/>
+<part name="D2" library="SparkFun-LED" deviceset="LED-BLUE" device="0603" value="POWER"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="1KOHM1/10W1%(0603)" device="" value="1k"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="FID3" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
@@ -9537,10 +9537,8 @@ Source: www.sumida.com/products/pdf/CEP125.pdf</description>
 <errors>
 <approved hash="104,1,101.6,177.8,U1,VIN,CX,,,"/>
 <approved hash="104,1,121.92,172.72,U1,VSS,GND,,,"/>
-<approved hash="111,2,218.44,104.14,GP28_I2C_6_SDA,,,,,"/>
 <approved hash="113,1,66.04,114.228,MAX3218,,,,,"/>
 <approved hash="113,1,81.3313,150.347,1N5817,,,,,"/>
-<approved hash="115,2,217.17,104.14,GP28_I2C_6_SDA,,,,,"/>
 </errors>
 </schematic>
 </drawing>
