@@ -1,0 +1,24 @@
+Partlist exported from /Users/ben/Documents/eagle/edison-95/hardware/through_hole.sch
+
+SKU             Source      Part         Value                               Device                              Package             Description                                                                             MF                   MPN       OC_FARNELL OC_NEWARK PROD_ID    VALUE
+1N5817-BDI-ND   DigiKey     1N5817                                           DIODE-DO41-10                       DO41-10             DIODE
+495-5551-1-ND   DigiKey     B78108S1153K 15uH                                L-US0207/15                         0207/15             INDUCTOR, American symbol
+445-8601-ND     DigiKey     C0           4.7uF                               CAPPTH1                             CAP-PTH-5MM         Capacitor
+445-8622-ND     DigiKey     C1           0.47uF                              CAPPTH1                             CAP-PTH-5MM         Capacitor
+445-8607-ND     DigiKey     C2           1uF                                 CAPPTH1                             CAP-PTH-5MM         Capacitor
+445-8607-ND     DigiKey     C3           1uF                                 CAPPTH1                             CAP-PTH-5MM         Capacitor
+445-8607-ND     DigiKey     C4           1uF                                 CAPPTH1                             CAP-PTH-5MM         Capacitor
+516-3130-ND     DigiKey     CHARGE       HLMP-6300-F001S                     HLMP6                               HLMP6               LED                                                                                     AGILENT TECHNOLOGIES HLMP-6500 1652490    40K0088
+445-8601-ND     DigiKey     CX           4.7uF                               CAPPTH1                             CAP-PTH-5MM         Capacitor
+S5800-02-ND     DigiKey     JP3          M02PTH                              M02PTH                              1X02                Standard 2-pin 0.1" header. Use with
+MAX3218CPP+-ND  DigiKey     MAX3218                                          DIL20                               DIL20               Dual In Line / Socket
+516-3051-ND     DigiKey     POWER        HLMP-6505-L001L                     HLMP6                               HLMP6               LED                                                                                     AGILENT TECHNOLOGIES HLMP-6500 1652490    40K0088
+S2KQCT-ND       DigiKey     R1           2.0k                                RESISTORAXIAL-0.3                   AXIAL-0.3           Resistor
+CF18JT330RCT-ND DigiKey     R2           330                                 RESISTORAXIAL-0.3                   AXIAL-0.3           Resistor
+CF18JT220RCT-ND DigiKey     R3           220                                 RESISTORAXIAL-0.3                   AXIAL-0.3           Resistor
+MCP73831T-2ACI/OTCT-ND  DK  U1           MCP73831                            MCP73831                            SOT23-5             Miniature single cell, fully integrated Li-Ion, Li-polymer charge management controller                                                     IC-09995
+H11908CT-ND     DigiKey     U2           EDISON_CONNECTOR_FULLMOUNTING_HOLES EDISON_CONNECTOR_FULLMOUNTING_HOLES EDISON_DAUGHTER
+H11630CT-ND     DigiKey     U3           EDISON_CONNECTOR_FULLHEADER         EDISON_CONNECTOR_FULLHEADER         DF40C-70DP-0.4(51)
+PRT-08533       Sparkfun    JP1          USB_MICROB_PLUG                     USB_MICROB_PLUGCONN-11752           USB-B-MICRO-SMD_V03 USB Micro-B connectors                                                                                                                      CONN-11752
+PRT-09015       Sparkfun    JP2          RA 6Pin SMD                         M06SMD                              1X06-SMD            Header 6                                                                                                                                    CONN-08971 RA 6Pin SMD
+COM-10860       Sparkfun    SW1          SWITCH_SPDT                         SWITCH_SPDT                         KPS-1290            SWCH-10651                                                                                                                                  SWCH-10651
